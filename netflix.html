@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Login</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      background-image: url(./download.jpg);
+      border-radius: 5500px;
+      color: #fff;
+    }
+    .login-container {
+      max-width: 400px;
+      border-radius: 20000px;
+      margin: 100px auto;
+      background-color: #141414;
+     
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .login-container h2 {
+      text-align: center;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group input[type="email"], .form-group input[type="password"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-bottom: 2px dotted #e50914;
+      
+      border-radius: 0;
+      padding: 10px;
+    }
+    .form-group input[type="email"]::placeholder, .form-group input[type="password"]::placeholder {
+      color: #999;
+    }
+    .form-group input[type="submit"] {
+      background-color: #e50914;
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .form-group input[type="submit"]:hover {
+      background-color: #ff0c0c;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="login-container">
+    <h2>Sign In</h2>
+    <form action="#">
+      <div class="form-group">
+        <input type="email" class="form-control" id="email" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" id="password" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <input type="submit" class="btn btn-primary btn-block" value="Sign In">
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
